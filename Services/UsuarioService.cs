@@ -7,7 +7,7 @@ namespace ApiPrueba.Services{
     static UsuarioService(){
         Usuarios = new List<Usuario>
         {
-            new Usuario{nombre="daniel",apellido="apellido",email="daniel@alonso.es",password="contraseña"}
+            new Usuario{id=1,nombre="daniel",apellido="apellido",email="daniel@alonso.es",password="contraseña"}
         };
     }
 
