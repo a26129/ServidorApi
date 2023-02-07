@@ -1,6 +1,6 @@
-using ASFASD.Models ;
+using ApiPrueba.Models ;
 
-namespace ASFASD.Services{
+namespace ApiPrueba.Services{
     public static class UsuarioService{
     static List<Usuario> Usuarios {get;}
     static int id = 0;

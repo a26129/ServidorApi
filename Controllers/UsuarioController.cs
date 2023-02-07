@@ -1,8 +1,8 @@
-using ASFASD.Models;
-using ASFASD.Services;
+using ApiPrueba.Models;
+using ApiPrueba.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ASFASD.Controllers
+namespace ApiPrueba.Controllers
 {
 
     [ApiController]

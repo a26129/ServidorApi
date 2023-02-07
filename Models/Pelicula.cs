@@ -1,4 +1,4 @@
-namespace ASFASD.Models{
+namespace ApiPrueba.Models{
     public class Pelicula
     {
         public int id {get;set;}

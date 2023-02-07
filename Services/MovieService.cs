@@ -1,6 +1,6 @@
-﻿using ASFASD.Models;
+﻿using ApiPrueba.Models;
 
-namespace ASFASD.Services{
+namespace ApiPrueba.Services{
     public static class MovieService{
     static List<Pelicula> Peliculas {get;}
     static int id = 4;

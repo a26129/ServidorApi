@@ -1,7 +1,8 @@
-using ASFASD.Models;
+using ApiPrueba.Models;
+using ApiPrueba.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace ASFASD
+namespace ApiPrueba
 {
     public class Program
     {
@@ -9,7 +10,7 @@ namespace ASFASD
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            //builder.Services.AddDbContext<>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("")));
+            builder.Services.AddDbContext<MovieContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Peliculas")));
             builder.Services.AddControllers();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

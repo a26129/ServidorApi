@@ -1,4 +1,4 @@
-namespace asfasd;
+namespace ApiPrueba;
 
 public class WeatherForecast
 {
